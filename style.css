@@ -22,7 +22,9 @@
         background: #FFF8F3;
         background-image: url("images/header_bg.png"),url('images/developer.png');
         background-repeat: no-repeat;
-        background-position: bottom right,left}
+        background-position: bottom right,left;
+      
+}
 nav{
         display: flex;
         justify-content: space-between;
@@ -129,3 +131,31 @@ nav li{
         color: #757575;
 }
 /* resume styles */
+.resume-content{
+        display: flex;
+        gap: 26px;
+}
+.resume-item{
+    margin-top: 32px; 
+    margin-bottom: 30px;   
+}
+.resume .title{
+        font-weight: 700;
+        font-size: 25px;
+        color: #474747;
+        margin-bottom: 10px;
+}
+.resume .sub-title{
+        color: #757575;
+        font-weight: 600;
+        font-size: 20px;
+        margin-bottom: 20px;
+
+}
+.resume .description{
+       color: #757575;
+}
+.resume-button{
+        margin-top: 50px;
+        text-align: center;
+}
