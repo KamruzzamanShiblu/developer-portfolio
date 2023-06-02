@@ -106,7 +106,7 @@ nav li{
         text-align: center;
         font-weight: 700;
         font-size: 30px;
-        margin-top: 270px;
+        margin-top: 170px;
 }
 .skills-container{
         margin-top: 130px;
@@ -157,5 +157,40 @@ nav li{
 }
 .resume-button{
         margin-top: 50px;
+        margin-bottom: 50px;
         text-align: center;
 }
+
+/* contact styles */
+.contact{
+       
+        display: flex;
+        padding: 130px 200px;
+        margin-top: 120px;
+        gap: 124px;
+        background: #FFF8F3;
+}
+.contact .contact-title{
+        font-weight: 700;
+        font-size: 35px;
+        margin-top: 130px;
+        margin-bottom: 22px;
+        color: #181818;
+       
+}
+.contact-description{
+        font-weight: 400;
+        font-size: 16px;
+        color: #757575;
+}
+.contact input[type="text"],input[type="email"], textarea{
+   margin-bottom: 24px;
+   border: 0;
+   width: 100%;
+   padding: 18px 30px;
+}
+input{
+        height: 64px;
+        
+}
+
